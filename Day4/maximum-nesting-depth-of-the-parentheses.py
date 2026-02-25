@@ -8,4 +8,5 @@ class Solution(object):
             elif x==')':
                 lists.append(count)
                 count-=1
-        return max(lists)
+
+        return max(lists or [0])
